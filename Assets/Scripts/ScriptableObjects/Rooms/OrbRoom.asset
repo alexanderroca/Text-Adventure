@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e822c377652dc9447a53dc4a742fdd7e, type: 3}
+  m_Name: OrbRoom
+  m_EditorClassIdentifier: 
+  description: You are in a vast, dark hall.
+  roomName: orb room
+  exits:
+  - keyString: south
+    exitDescription: There is a door to the south with a light coming thourht it.
+    valueRoom: {fileID: 11400000, guid: 053f9c430b8c9ad49a6d3ab522d28416, type: 2}
+  interactableObjectsInRoom: []
